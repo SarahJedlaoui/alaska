@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["localhost"],
+    domains: ["localhost","tiny-druid-926a04.netlify.app","*",""],
     remotePatterns: [
       {
         protocol: "https",
