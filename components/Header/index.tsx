@@ -161,7 +161,7 @@ const Header = () => {
                   href="/signup"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-[#54b4cd] px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
                 >
-                  Leap AI
+                  Book
                 </Link>
 
 

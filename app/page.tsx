@@ -16,8 +16,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The Leap Studio",
-  description: "The Leap Studio",
+  title: "Alaska Kenai",
+  description: "Alaska Kenai",
 };
 
 export default function Home() {
