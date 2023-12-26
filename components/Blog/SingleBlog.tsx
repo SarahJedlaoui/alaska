@@ -14,7 +14,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           href="/blog-details"
           className="relative block aspect-[37/22] w-full"
         >
-          <span className="absolute right-6 top-6 z-20 inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold capitalize text-white">
+          <span className="absolute bg-[#54b4cd] right-6 top-6 z-20 inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold capitalize text-white">
             {tags[0]}
           </span>
           <Image src={image} alt="image" fill />

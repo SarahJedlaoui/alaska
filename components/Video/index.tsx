@@ -10,13 +10,13 @@ const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative pt-100 z-10 py-16 md:py-20 lg:pt-40 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="If you can dream it we can help you achieve it! "
+          paragraph="Alaska Kenai Adventures (AKA) will be your Alaska trip of a lifetime. The lodge is located on 180 feet of picturesque Kenai River shoreline with prime property for fishing Sockeye (Red) and Coho (Silver) salmon . This area is also home to the Russian River, Kasilof River, Anchor River, and Deep Creek."
           center
-          mb="80px"
+          mb="50px"
         />
 
         <div className="-mx-4 flex flex-wrap">
@@ -26,7 +26,7 @@ const Video = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-                <Image src="/images/video/video.jpg" alt="video image" fill />
+                <Image src="/images/video/fisher.jpg" alt="video image" fill />
                 <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
                     aria-label="video play button"
@@ -54,7 +54,7 @@ const Video = () => {
         autoplay={true}
         start={true}
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId="kFf-csP-bro"
         onClose={() => setOpen(false)}
       />
 

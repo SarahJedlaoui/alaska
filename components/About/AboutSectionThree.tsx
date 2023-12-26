@@ -7,7 +7,7 @@ const checkIcon = (
   </svg>
 );
 
-const AboutSectionOne = () => {
+const AboutSectionThree = () => {
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
@@ -24,14 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="FISHING"
-                paragraph="Alaska Kenai Adventures Lodge is located directly on the glacier blue Kenai River, 17 miles outside of Soldotna.
-
-                The Kenai River is world renowned for fishing and home to the world record 97-pound King salmon and world record 15-pound Sockeye salmon, both caught by rod and reel.
-                
-                We offer prime fishing from steel platforms on our private shoreline or private nearby shore access where angler numbers are limited so you can fish freely without the public access combat atmosphere.
-                
-                Come and enjoy your fisherman’s paradise from our shore."
+                title="KINGS"
+                paragraph="Today Alaska’s biggest salmon, Kings, are mainly catch and release in the Kenai River, in attempt to continue to keep the resource rebuilding and strong into the future. The nearby Kasilof River has a hatchery run of King salmon with a limit of two per day."
                 mb="44px"
               />
 
@@ -61,13 +55,13 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/logo/fisherman.jpeg"
+                  src="/images/logo/OIF.jpg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/logo/fisherman.jpeg"
+                  src="/images/logo/OIF.jpg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
@@ -81,4 +75,4 @@ const AboutSectionOne = () => {
   );
 };
 
-export default AboutSectionOne;
+export default AboutSectionThree;
