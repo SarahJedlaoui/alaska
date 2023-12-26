@@ -36,7 +36,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         rel="nofollow noreferrer"
         className="relative h-10 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
       >
-        <img src={image} alt={name} />
+        <Image src={image} alt={name} fill />
       </a>
     </div>
   );
