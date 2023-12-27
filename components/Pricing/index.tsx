@@ -11,11 +11,16 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="2024 Package Information and Pricing"
+          paragraph="All packages include accommodations, 3 meals per day, unlimited private bank fishing at the lodge (fishing gear provided), 50 lbs of fish processing, plus Charter Fishing Trips. Package pricing below is per guest.          
+          
+          
+          
+          Check in starting at 3PM. Check out time is 11AM."
           center
           width="665px"
         />
+
 
         <div className="w-full">
           <div
@@ -24,11 +29,10 @@ const Pricing = () => {
           >
             <span
               onClick={() => setIsMonthly(true)}
-              className={`${
-                isMonthly
+              className={`${isMonthly
                   ? "pointer-events-none text-primary"
                   : "text-dark dark:text-white"
-              } mr-4 #54b4cd cursor-pointer text-base font-semibold`}
+                } mr-4 #54b4cd cursor-pointer text-base font-semibold`}
             >
               Monthly
             </span>
@@ -39,9 +43,8 @@ const Pricing = () => {
               <div className="relative">
                 <div className="h-5 w-14 rounded-full bg-[#1D2144] shadow-inner"></div>
                 <div
-                  className={`${
-                    isMonthly ? "" : "translate-x-full"
-                  } shadow-switch-1 bg-[#54b4cd] absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
+                  className={`${isMonthly ? "" : "translate-x-full"
+                    } shadow-switch-1 bg-[#54b4cd] absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
                 >
                   <span className="active h-4 w-4 rounded-full bg-white"></span>
                 </div>
@@ -49,56 +52,61 @@ const Pricing = () => {
             </div>
             <span
               onClick={() => setIsMonthly(false)}
-              className={`${
-                isMonthly
+              className={`${isMonthly
                   ? "text-dark dark:text-white"
                   : "pointer-events-none text-primary"
-              } ml-4 cursor-pointer text-base font-semibold`}
+                } ml-4 cursor-pointer text-base font-semibold`}
             >
               Yearly
             </span>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
+            packageName="Standard Stay"
+            price={isMonthly ? "2.19" : "120"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="4 Nights
+            (3 Days)"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="6/1 – 7/15 King Salmon, Halibut" status="active" />
+            <OfferList text="7/15 – 8/15 Sockeye Salmon, Halibut" status="active" />
+            <OfferList text="8/15 – 9/10 Silver Salmon, Halibut, Trophy Trout" status="active" />
+            <OfferList text="0 Charter Trips" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
+            packageName="Package A"
+            price={isMonthly ? "2.699" : "789"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="4 Nights (3 Days)"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+           <OfferList text="6/1 – 7/15 King Salmon, Halibut" status="active" />
+            <OfferList text="7/15 – 8/15 Sockeye Salmon, Halibut" status="active" />
+            <OfferList text="8/15 – 9/10 Silver Salmon, Halibut, Trophy Trout" status="active" />
+            <OfferList text="2 Charter Trips" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
+            packageName="Package B"
+            price={isMonthly ? "3.459" : "999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="5 Nights (4 Days)"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+           <OfferList text="6/1 – 7/15 King Salmon, Halibut" status="active" />
+            <OfferList text="7/15 – 8/15 Sockeye Salmon, Halibut" status="active" />
+            <OfferList text="8/15 – 9/10 Silver Salmon, Halibut, Trophy Trout" status="active" />
+            <OfferList text="3 Charter Trips" status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="Package C"
+            price={isMonthly ? "4.199" : "999"}
+            duration={isMonthly ? "mo" : "yr"}
+            subtitle="6 Nights (5 Days)"
+          >
+           <OfferList text="6/1 – 7/15 King Salmon, Halibut" status="active" />
+            <OfferList text="7/15 – 8/15 Sockeye Salmon, Halibut" status="active" />
+            <OfferList text="8/15 – 9/10 Silver Salmon, Halibut, Trophy Trout" status="active" />
+            <OfferList text="4 Charter Trips" status="active" />
           </PricingBox>
         </div>
       </div>

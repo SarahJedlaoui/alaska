@@ -19,27 +19,11 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                  ALASKA KENAI ADVENTURES LODGE
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
-                    <div className="mb-5 mr-10 flex items-center">
-                      <div className="mr-4">
-                        <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                          <Image
-                            src="/images/blog/author-02.png"
-                            alt="author"
-                            fill
-                          />
-                        </div>
-                      </div>
-                      <div className="w-full">
-                        <span className="mb-1 text-base font-medium text-body-color">
-                          By <span>Musharof Chy</span>
-                        </span>
-                      </div>
-                    </div>
+
                     <div className="mb-5 flex items-center">
                       <p className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
@@ -98,75 +82,148 @@ const BlogDetailsPage = () => {
                       href="#0"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
-                      Design
+                      Accommodation
                     </a>
                   </div>
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    Alaska Kenai Adventures welcomes you with newly updated rooms. Each unit has a private bathroom and 2 or 4 twin beds. We will work to match your unit preference to your group size, however, if you are requesting a unit for only yourself there will be an additional charge as we have limited space during the short season. Excursion Package price includes the following meals:
                   </p>
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Daily Grab-and-Go Breakfast
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Take-Away Box Lunch
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Evening Dinner served in the dining room
+                    </li>
+
+                  </ul>
+
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Wi-Fi is available for your convenience at Alaska Kenai Adventures. We look forward to enjoying your company! If you have questions please contact us at <a href="">info@alaskakenaiadventures.com</a> or 907-252-0705.
+                  </p>
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                    BOOK NOW FOR YOUR SUMMER 2024 ADVENTURES
+                  </h3>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/blog/bit.jpg"
                         alt="image"
                         fill
                         className="object-cover object-center"
                       />
+
                     </div>
                   </div>
-                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
-                      malesuada
-                    </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
-                  </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
-                      Amet dictum sit amet justo
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
-                  </p>
-                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Digital marketplace for Ui/Ux designers.
-                  </h3>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
-                  </p>
-                  <ul className="mb-10 list-inside list-disc text-body-color">
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
-                    </li>
-                  </ul>
+
+
+                  <div className="flex mb-10">
+                    <div className="w-1/2 overflow-hidden rounded">
+                      <div className="relative aspect-[97/40] sm:aspect-[97/44]">
+                        <Image
+                          src="/images/blog/1.jpg"
+                          alt="image"
+                          fill
+                          className="object-cover object-center"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="w-1/2 overflow-hidden rounded">
+                      <div className="relative aspect-[97/40] sm:aspect-[97/44]">
+                        <Image
+                          src="/images/blog/2.jpg"
+                          alt="image"
+                          fill
+                          className="object-cover object-center"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="flex mb-10">
+                    <div className="w-1/2 overflow-hidden rounded">
+                      <div className="relative aspect-[97/40] sm:aspect-[97/44]">
+                        <Image
+                          src="/images/blog/3.jpg"
+                          alt="image"
+                          fill
+                          className="object-cover object-center"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="w-1/2 overflow-hidden rounded">
+                      <div className="relative aspect-[97/40] sm:aspect-[97/44]">
+                        <Image
+                          src="/images/blog/4.jpeg"
+                          alt="image"
+                          fill
+                          className="object-cover object-center"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex mb-10">
+                    <div className="w-1/2 overflow-hidden rounded">
+                      <div className="relative aspect-[97/40] sm:aspect-[97/44]">
+                        <Image
+                          src="/images/blog/10.jpg"
+                          alt="image"
+                          fill
+                          className="object-cover object-center"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="w-1/2 overflow-hidden rounded">
+                      <div className="relative aspect-[97/40] sm:aspect-[97/44]">
+                        <Image
+                          src="/images/blog/7.jpg"
+                          alt="image"
+                          fill
+                          className="object-cover object-center"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex mb-10">
+                    <div className="w-1/2 overflow-hidden rounded">
+                      <div className="relative aspect-[97/40] sm:aspect-[97/44]">
+                        <Image
+                          src="/images/blog/9.jpg"
+                          alt="image"
+                          fill
+                          className="object-cover object-center"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="w-1/2 overflow-hidden rounded">
+                      <div className="relative aspect-[97/40] sm:aspect-[97/44]">
+                        <Image
+                          src="/images/blog/11.jpg"
+                          alt="image"
+                          fill
+                          className="object-cover object-center"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                      Now accepting Booking’s for the 2024 Season, secure your dates TODAY
+                      for prime time fishing and excursions.
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -233,7 +290,7 @@ const BlogDetailsPage = () => {
                           cx="37.5"
                           cy="37.5"
                           r="37.5"
-                          fill="#4A6CF7"
+                          fill="#54b4cd"
                         />
                         <mask
                           id="mask0_111:596"
@@ -249,7 +306,7 @@ const BlogDetailsPage = () => {
                             cx="37.5"
                             cy="37.5"
                             r="37.5"
-                            fill="#4A6CF7"
+                            fill="#54b4cd"
                           />
                         </mask>
                         <g mask="url(#mask0_111:596)">
@@ -309,20 +366,15 @@ const BlogDetailsPage = () => {
                       </svg>
                     </span>
                   </div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
-                  </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
                       <h4 className="mb-3 text-sm font-medium text-body-color">
                         Popular Tags :
                       </h4>
                       <div className="flex items-center">
-                        <TagButton text="Design" />
-                        <TagButton text="Development" />
-                        <TagButton text="Info" />
+                        <TagButton text="Accommodation" />
+                        <TagButton text="ADVENTURES" />
+                        <TagButton text="BOOKING" />
                       </div>
                     </div>
                     <div className="mb-5">

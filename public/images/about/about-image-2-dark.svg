@@ -12,9 +12,9 @@
 <circle opacity="0.3" cx="39.2391" cy="44.2391" r="4.23913" fill="white"/>
 <circle opacity="0.3" cx="54.5" cy="44.2391" r="4.23913" fill="white"/>
 <circle opacity="0.3" cx="69.7609" cy="44.2391" r="4.23913" fill="white"/>
-<circle opacity="0.8" cx="377.5" cy="194.5" r="37.5" fill="#4A6CF7"/>
+<circle opacity="0.8" cx="377.5" cy="194.5" r="37.5" fill="#54b4cd"/>
 <mask id="mask0_62_128" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="340" y="157" width="75" height="75">
-<circle opacity="0.8" cx="377.5" cy="194.5" r="37.5" fill="#4A6CF7"/>
+<circle opacity="0.8" cx="377.5" cy="194.5" r="37.5" fill="#54b4cd"/>
 </mask>
 <g mask="url(#mask0_62_128)">
 <circle opacity="0.8" cx="377.5" cy="194.5" r="37.5" fill="url(#paint3_radial_62_128)"/>

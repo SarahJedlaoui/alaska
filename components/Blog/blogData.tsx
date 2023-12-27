@@ -3,45 +3,45 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "ALASKA KENAI ADVENTURES LODGE",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "Alaska Kenai Adventures welcomes you with newly updated rooms. ",
+    image: "/images/blog/lodge.jpeg",
     author: {
-      name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
+      name: "Maher Khelifi",
+      image: "/images/blog/author-03.png",
       designation: "Graphic Designer",
     },
-    tags: ["creative"],
-    publishDate: "2025",
+    tags: ["Accommodation"],
+    publishDate: "2023",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Adventures – Salmon Fishing",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "Sockeye salmon are of the highest quality of salmon available. Kenai River sockeye salmon average 6-8 pounds.",
+    image: "/images/blog/salamon.jpg",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
       designation: "Content Writer",
     },
-    tags: ["computer"],
-    publishDate: "2025",
+    tags: ["Salmon Fishing"],
+    publishDate: "2023",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Adventures – Halibut Fishing",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "The average Halibut taken by sport anglers in Alaska ranges between 15 and 40 pounds, with fish up to 100 pounds a regular occurrence",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
       designation: "Graphic Designer",
     },
-    tags: ["design"],
-    publishDate: "2025",
+    tags: ["Halibut Fishing"],
+    publishDate: "2023",
   },
 ];
 export default blogData;

@@ -35,23 +35,6 @@ const AboutSectionTwo = () => {
                 The Sockeye run is from June to mid-August and generally is predicted to be 2.5 million, although this summer’s run is forecast to be 2.5 million to 3 million for the Kenai River. Sockeye salmon is prized for it’s quality and bright red meat. 8-10 pound average Sockeye’s are fierce fighters so get ready for a workout as you catch your daily limit.
                 </p>
               </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                20%
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Increase in retention
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                1.5X
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                User base growth
-
-                </p>
-              </div>
             </div>
           </div>
         </div>

@@ -31,9 +31,9 @@ export default function Home() {
       <AboutSectionFour/>
       <AboutSectionFive/>
       <AboutSectionSix/>
+      <Blog />
       <Testimonials />
       <Pricing />
-      <Blog />
       <Contact />
     </>
   );

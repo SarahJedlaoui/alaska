@@ -38,23 +38,7 @@ const AboutSectionFour = () => {
                     The average Halibut taken by sport anglers in Alaska ranges between 15 and 40 pounds, with fish up to 100 pounds a regular occurrence. Halibut has a limit of two per day.
                   </p>
                 </div>
-                <div className="mb-9">
-                  <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    20%
-                  </h3>
-                  <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Increase in retention
-                  </p>
-                </div>
-                <div className="mb-1">
-                  <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    1.5X
-                  </h3>
-                  <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    User base growth
-
-                  </p>
-                </div>
+                
               </div>
             </div>
           </div>
