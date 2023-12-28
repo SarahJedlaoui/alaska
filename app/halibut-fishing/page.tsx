@@ -107,7 +107,8 @@ const BlogDetailsPage1 = () => {
 
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     <span className="text-primary underline dark:text-white">
-                      <a href="https://www.adfg.alaska.gov/index.cfm?adfg=license.main" target="_blank" >
+                      <a href="https://www.adfg.alaska.gov/index.cfm?adfg=license.main" target="_blank" 
+  rel="noreferrer" >
                       Purchase Alaska Fish and Game Licenses Here
                       </a>
                     </span>
@@ -231,63 +232,72 @@ const BlogDetailsPage1 = () => {
 
                     <p className=" text-center mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                       <span className=" text-center text-primary underline dark:text-white">
-                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=40&SPECIESID=420&YEAR=2023" target="_blank" >
+                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=40&SPECIESID=420&YEAR=2023" target="_blank" 
+  rel="noreferrer" >
                         Kenai River (late-run sockeye) Sockeye
                         </a>
                       </span>
                     </p>
                     <p className=" text-center mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                       <span className=" text-center text-primary underline dark:text-white">
-                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.kenaiChinook&COUNTLOCATIONID=72&SPECIESID=412&YEAR=2022,2021" target="_blank" >
+                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.kenaiChinook&COUNTLOCATIONID=72&SPECIESID=412&YEAR=2022,2021" target="_blank" 
+  rel="noreferrer" >
                         Kenai River (Chinook) Chinook – Late Run
                         </a>
                       </span>
                     </p>
                     <p className=" text-center mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                       <span className=" text-center text-primary underline dark:text-white">
-                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=13&SPECIESID=421&YEAR=2023" target="_blank" >
+                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=13&SPECIESID=421&YEAR=2023" target="_blank" 
+  rel="noreferrer" >
                         Russian River Sockeye – Early Run
                         </a>
                       </span>
                     </p>
                     <p className=" text-center mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                       <span className=" text-center text-primary underline dark:text-white">
-                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=9&SPECIESID=410&YEAR=2023" target="_blank" >
+                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=9&SPECIESID=410&YEAR=2023" target="_blank" 
+  rel="noreferrer" >
                         Anchor River Chinook
                         </a>
                       </span>
                     </p>
                     <p className=" text-center mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                       <span className=" text-center text-primary underline dark:text-white">
-                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.kenaiChinook&COUNTLOCATIONID=72&SPECIESID=411&YEAR=2022,2021,2020,2019,2018,2017,2016,2015,2014,2013" target="_blank" >
+                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.kenaiChinook&COUNTLOCATIONID=72&SPECIESID=411&YEAR=2022,2021,2020,2019,2018,2017,2016,2015,2014,2013" target="_blank" 
+  rel="noreferrer" >
                         Kenai River (Chinook) Chinook – Early Run
                         </a>
                       </span>
                     </p>
                     <p className=" text-center mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                       <span className=" text-center text-primary underline dark:text-white">
-                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=41&SPECIESID=420&YEAR=2023" target="_blank" >
+                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=41&SPECIESID=420&YEAR=2023" target="_blank" 
+  rel="noreferrer" >
                         Kasilof River (sockeye) Sockeye
                         </a>
                       </span>
                     </p>
                     <p className=" text-center mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                       <span className=" text-center text-primary underline dark:text-white">
-                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=13&SPECIESID=422&YEAR=2022" target="_blank" >
+                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=13&SPECIESID=422&YEAR=2022" target="_blank" 
+  rel="noreferrer" >
                         Russian River Sockeye – Late Run
                         </a>
                       </span>
                     </p>
                     <p className=" text-center mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                       <span className=" text-center text-primary underline dark:text-white">
-                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=10&SPECIESID=410&YEAR=2023" target="_blank" >
+                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=10&SPECIESID=410&YEAR=2023" target="_blank" 
+  rel="noreferrer" >
                         Ninilchik River Chinook
                         </a>
                       </span>
                     </p>
                     <p className=" text-center mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                       <span className=" text-center text-primary underline dark:text-white">
-                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=13&SPECIESID=430&YEAR=2022" target="_blank" >
+                        <a href="https://www.adfg.alaska.gov/sf/FishCounts/index.cfm?ADFG=main.displayResults&COUNTLOCATIONID=13&SPECIESID=430&YEAR=2022" target="_blank" 
+  rel="noreferrer" >
                         Russian River Coho
                         </a>
                       </span>
