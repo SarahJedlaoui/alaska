@@ -1,6 +1,8 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
-
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import MailIcon from '@mui/icons-material/Mail';
+import CottageIcon from '@mui/icons-material/Cottage';
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,7 +16,9 @@ const ContactPage = () => {
     <>
       <Breadcrumb
         pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="37180 Glacier Blue St., Soldotna, Alaska 99669   
+         info@alaskakenaiadventures.com
+        &#10;+1 907-252-0705"
       />
 
       <Contact />
