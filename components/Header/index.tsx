@@ -152,10 +152,11 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
-                  href=""
+                  href="https://drive.google.com/file/d/1QlI_Z-FIXB88AjI1omrCJYQOqbOoScqj/view?usp=sharing" target="_blank" 
+                  rel="noreferrer" 
                   className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
                 >
-                  Get Started Now
+                  Brochure PDF
                 </Link>
                 <Link
                   href=""
