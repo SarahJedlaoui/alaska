@@ -14,6 +14,7 @@ const blogData: Blog[] = [
     },
     tags: ["Accommodation"],
     publishDate: "2023",
+    path:'/accommodations',
   },
   {
     id: 2,
@@ -25,23 +26,26 @@ const blogData: Blog[] = [
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
       designation: "Content Writer",
+     
     },
     tags: ["Salmon Fishing"],
     publishDate: "2023",
+    path:'/salmon-fishing',
   },
   {
     id: 3,
     title: "Adventures – Halibut Fishing",
     paragraph:
       "The average Halibut taken by sport anglers in Alaska ranges between 15 and 40 pounds, with fish up to 100 pounds a regular occurrence",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/halibut.jpg",
     author: {
       name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      image: "/images/blog/salamon.jpg",
+      designation: "Guide",
     },
     tags: ["Halibut Fishing"],
     publishDate: "2023",
+    path:'/halibut-fishing',
   },
 ];
 export default blogData;
