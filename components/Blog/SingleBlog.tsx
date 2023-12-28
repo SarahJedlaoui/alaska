@@ -28,30 +28,10 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
               {title}
             </Link>
           </h3>
-          <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
+          <p className="mb-0  border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
             {paragraph}
           </p>
-          <div className="flex items-center">
-            <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
-              <div className="mr-4">
-                <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                  <Image src={author.image} alt="author" fill />
-                </div>
-              </div>
-              <div className="w-full">
-                <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                  By {author.name}
-                </h4>
-                <p className="text-xs text-body-color">{author.designation}</p>
-              </div>
-            </div>
-            <div className="inline-block">
-              <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                Date
-              </h4>
-              <p className="text-xs text-body-color">{publishDate}</p>
-            </div>
-          </div>
+
         </div>
       </div>
     </>

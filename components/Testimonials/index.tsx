@@ -9,7 +9,7 @@ const testimonialData: Testimonial[] = [
     designation: "Founder @TheLeap",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/maher.jpg",
+    image: "/images/testimonials/bird.jpg",
     star: null,
   },
   {
@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "Founder @UIdeck",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/team1.jpg",
+    image: "/images/testimonials/canoe.jpg",
     star:null,
   },
   {
@@ -27,7 +27,7 @@ const testimonialData: Testimonial[] = [
     designation: "Founder @Lineicons",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/team2.jpg",
+    image: "/images/testimonials/raft.jpg",
     star: null,
   },
   {
@@ -36,18 +36,55 @@ const testimonialData: Testimonial[] = [
     designation: "Founder @Lineicons",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/team3.jpg",
+    image: "/images/testimonials/moose.jpg",
+    star: null,
+  },
+  {
+    id: 4,
+    name: "Lethium Frenci",
+    designation: "Founder @Lineicons",
+    content:
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    image: "/images/testimonials/cruise.jpg",
+    star: null,
+  },
+  {
+    id: 5,
+    name: "Lethium Frenci",
+    designation: "Founder @Lineicons",
+    content:
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    image: "/images/testimonials/biking.jpg",
+    star: null,
+  },
+  {
+    id: 6,
+    name: "Lethium Frenci",
+    designation: "Founder @Lineicons",
+    content:
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    image: "/images/testimonials/flight.jpg",
+    star: null,
+  },
+  {
+    id: 7,
+    name: "Lethium Frenci",
+    designation: "Founder @Lineicons",
+    content:
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    image: "/images/testimonials/seeing.jpg",
     star: null,
   },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-1 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Our team behind all the success we have"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Adventures & Excursions"
+          paragraph="Alaska Kenai Adventures Excursions, let us know what your interests are! 
+          Here are just a few to start your adventure"
           center
         />
 
